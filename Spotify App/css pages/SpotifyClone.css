@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: 	#121212;
+    font-family: "Poppins", sans-serif;
+}
+
+button{
+    all:unset;
+}
+
+body{
+    padding-bottom: 75px;
+}
+
+
+.left-navbar{
+    display: flex;
+    align-items:space-between;
+    padding-bottom: 25px;
+    width: fit-content;
+}
+
+.Spot{
+    padding: 25px;
+    color: white;
+    margin-right: 100px;
+    margin-top: .5rem;
+    position: relative;
+
+}
+
+.fa-spotify{
+    position:absolute;
+    margin-left: .5rem;
+}
+
+.fa-chevron-left{
+    font-size: 20px;
+    border: none;
+    color: white;
+    outline: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    
+}
+
+
+.fa-chevron-right{
+    color:white;
+    font-size: 20px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.right-navbar{
+    display: flex;
+    width:fit-content;
+}
+
+.search{
+    background-color: 	#212121;
+    border-radius: 25px;
+    width: 20rem;
+    height: 2.5rem;
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    border: none;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.search:hover{
+    background-color: #535353;
+}
+
+.fa-magnifying-glass{
+    background:none;
+    color: white;
+    margin-top: 2.5rem;
+    position: absolute;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+}
+
+.userbuttons{
+    margin-top: 1.5rem;
+    margin-left: 30em;
+}
+
+.login{
+    color: #191414;
+    background-color: white;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login:hover{
+    font-size: 15px;
+    background-color: #F5F5F4;
+}
+
+.signup{
+    color: #b3b3b3;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-right: .25em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.signup:hover{
+    color: white;
+    font-size: 15px;
+}
+
+.column-left{
+    position: relative;
+    align-items: center;
+    background-color: 	#212121;
+    font-size: large;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 500px;
+    border-radius: 2%;
+    width: 350px;
+
+}
+
+.songLibrary{
+    color: #b3b3b3;
+    margin-right: 85px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.songLibrary:hover{
+    font-size: 20px;
+    color: white;
+}
+
+.fa-list{
+    margin-right: 10px;
+}
+
+.fa-plus{
+    text-align: right;
+    color:#b3b3b3;
+    margin-left: 285px;
+    background: none;
+    cursor: pointer;
+    margin-right: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fa-plus:hover{
+    font-size: 17px;
+    color: white;
+    border-radius: 100%;
+}
+
+::-webkit-scrollbar{
+    width:15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #191414;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #212121;
+    border-radius: 20px;
+}
+footer{
+    all: unset;
+}
+
+.footer{
+    height:75px;
+    min-width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #726cf8;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
+    position: absolute;
+}
+
+.createPlaylist{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: 212121;
+    border-radius: 5px;
+    padding: 15px 10px 0px 10px;
+    width: 100%;
+    height: 125px;
+    margin-top: 15px;
+
+}
+
+.create{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.help{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.createBtn{
+    font-size: 14px;
+    margin: 0%;
+    cursor: pointer;
+    background-color: #F5F5F4;
+    color: #212121;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 12px;
+    width: 100px;
+}
+
+.createBtn:hover{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.findPodcast{
+    display: border-box;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+
+.podcast{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.updated{
+    font-size: 12px;
+}
+
+.podcastBtn{
+    background-color: #535353;
+    padding:7px 10px 7px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.podcastBtn:hover{
+    padding:9px 12px 9px 12px;
+}
+
+.column-right{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.topcharts{
+    position: absolute;
+    margin-left: 380px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
